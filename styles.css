@@ -1,0 +1,179 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    position: fixed;
+    background-color: rgb(169, 224, 238);
+    width: 100vw;
+    height: 70px;
+    line-height: 70px;
+    text-align: right;
+    z-index: 1;
+}
+
+#navbar a{
+    font-size:20px;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight:200;
+    color: rgb(153, 68, 156);
+    text-decoration: none;
+    margin: 50px;
+}
+
+#navbar a:hover{
+    color: rgb(127, 170, 40);
+}
+
+#welcome-section{
+    background: rgb(169, 224, 238);
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#welcome-section h1,p{
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 50vh;
+}
+
+#welcome-section h1{
+    font-size:50px;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight:300;
+}
+
+#welcome-section p{
+    font-size:30px;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight:200;
+    color: rgb(153, 68, 156);
+}
+
+#projects{
+    text-align: center;
+}
+
+#projects img{
+    height: 180px;
+    width: 280px;
+    display: block;
+    padding: 0;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(48, 145, 77);
+    border-bottom-width: 2px;
+
+}
+
+#gallery figure{
+    display: inline-block;
+    border-style: solid;
+    border-color: rgb(48, 145, 77);
+    border-width: 2px;
+    padding: 0px 0px 40px 0px;
+    margin: 10px 120px 10px 120px;
+    background: rgb(212, 238, 161);
+    position: relative;
+    bottom: 25px;
+}
+
+#gallery figure:hover{
+    background-color:rgb(170, 221, 250);
+}
+
+#gallery figure figcaption{
+    margin: 0;
+    position: relative;
+    top: 20px;
+    font-size:20px;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight:200;
+    color: rgb(49, 108, 122);
+}
+
+#projects h2{
+    font-size:25px;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight:200;
+    padding: 40px 0px 30px 0px;
+}
+
+#profile-link{
+    background: rgb(224, 223, 223);
+    height: 20px;
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+    padding: 20px;
+    text-decoration: none;
+    font-size:20px;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight:200;
+    color: rgb(49, 108, 122);
+    border-style: solid;
+    border-color: rgb(196, 141, 228);
+    border-width: 2px;
+    border-radius: 4px;
+}
+
+#profile-link:hover{
+    background-color: rgb(235, 184, 250);
+}
+
+#contact{
+    background-color: rgb(250, 225, 229);
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 250px
+}
+
+#contact h1{
+    font-size:40px;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight:200;
+    color: black;
+}
+
+#contact h2{
+    font-size:30px;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight:200;
+    color: black;
+}
+
+#contact a{
+    text-decoration: none;
+    font-size:20px;
+    font-family:Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight:200;
+    color: rgb(49, 108, 122);
+    background-color: rgb(240, 233, 233);
+    height: 120px;
+    width: 120px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 50%;
+    margin: 50px 100px 0 100px;
+    line-height: 120px;
+}
+
+#contact a:hover{
+    background-color: rgb(176, 224, 247);
+}
+
+#contact-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+@media only screen and (max-width:600px){
+    #navbar{
+        text-align: center;
+    }
+}
