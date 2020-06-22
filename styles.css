@@ -1,10 +1,42 @@
-html, body {
-    height: 100vh;
-    width: 100vw;
+html {
+    display: block;
+}
+
+body {
+    display: block;
     margin: 0;
+}
+
+#wrapper {
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
 }
 
 #particles-js {
     background: rgb(55, 55, 94);
+    position: fixed;
+    width: 100%;
     height: 100%;
+    z-index: -20;
+
+    display: flex;
+    justify-content: center;
+}
+
+#main {
+    height: 100vh;
+    max-width: 100vw;
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#image {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    padding: 0;
 }
