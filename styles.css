@@ -1,5 +1,6 @@
 html {
     display: block;
+    font-family: "Roboto", Arial, Helvetica, Tahoma, Calibri, Verdana, sans-serif;
 }
 
 body {
@@ -36,16 +37,73 @@ body {
 
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
     align-items: center;
+
+    
 }
 
-#words {
+#greetingContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+
+    width: 100%;
+}
+
+#greeting {
+    font-size: 25px;
+    z-index: 1;
+}
+
+#social {
+    display: flex;
+    justify-content: center;
+}
+
+.top-icon {
+    margin: 10px;
+    color: rgb(60, 60, 73);
+
+    animation-name: icon-animation;
+    animation-duration: 0.8s;
+}
+
+.top-icon:hover {
+    transform: scale(1.1);
+}
+
+.fa-github:hover {
+    color: black;
+}
+
+.fa-linkedin:hover {
+    color: rgb(15, 107, 228);
+}
+
+.fa-envelope-square:hover {
+    color: rgb(82, 158, 82);
+}
+
+.fa-file-pdf:hover {
+    color: rgb(173, 75, 75);
+}
+
+#bottomRow {
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+#introduction {
+    font-size: 25px;
     z-index: 1;
 }
 
 #figure {
-    background: green;
     z-index: 1;
 }
 
