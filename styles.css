@@ -13,30 +13,57 @@ body {
 }
 
 #particles-js {
-    background: rgb(55, 55, 94);
-    position: fixed;
+    background: rgb(249, 249, 252);
+    position: absolute;
     width: 100%;
     height: 100%;
-    z-index: -20;
+    z-index: 0;
 
     display: flex;
     justify-content: center;
 }
 
 #main {
-    height: 100vh;
+    /*height: 100vh;
     max-width: 100vw;
-    z-index: 1;
     position: relative;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: space-around;
+
+    z-index: -1;*/
+
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#words {
+    z-index: 1;
+}
+
+#figure {
+    background: green;
+    z-index: 1;
+}
+
+#image-wrapper {
+    height: 500px;
+    width: 300px;
 }
 
 #image {
-    height: 50px;
-    width: 50px;
+    /*max-height: 700px;
+    max-width: 500px;
+    height: auto;
+    width: auto;*/
+
+    max-width: 100%;
+    height: auto;
     margin: 0;
     padding: 0;
+
+    border-radius: 5%;
 }
