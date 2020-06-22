@@ -111,12 +111,17 @@ a, u {
     flex-wrap: wrap;
     width: 100vw;
     justify-content: space-around;
+    align-items: flex-start;
 }
 
 #introduction {
     font-size: 25px;
-    line-height: 30px;
     z-index: 1;
+    overflow: auto;
+}
+
+.intro-text {
+    display: block;
 }
 
 #figure {
