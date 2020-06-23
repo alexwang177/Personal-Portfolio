@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<<<<<<< HEAD
     <title>Alex Wang</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -47,5 +48,134 @@
         </div>
     </section>
     
+=======
+    <title>Alex J Wang</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+        <div id="particles-js">
+        </div>
+
+        <div id="main">
+
+            
+            <div id="front-page">
+                <div id="greetingContainer">
+                    <div id="greeting">Alex J Wang</div>
+                    <div id="social">
+                        <a href="https://github.com/alexwang177">
+                            <i class="fab fa-github fa-2x top-icon"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/alex-wang-a3a164189/">
+                            <i class="fab fa-linkedin fa-2x top-icon"></i>
+                        </a>
+                        <a href="mailto: alexwang177@gmail.com"> 
+                            <i class="fas fa-envelope-square fa-2x top-icon"></i>
+                        </a>
+                        <a href="./Alex_J_Wang_Resume_Current copy.pdf">
+                            <i class="fas fa-file-pdf fa-2x top-icon"></i>
+                        </a>
+                    </div>
+                </div>
+        
+                <div id="bottomRow">
+                    <div id="introduction">
+                        <p class="intro-text">
+                            Hi! I am an enthusiastic full-stack web developer and proud <a href="https://duke.edu/" class="emoji">&#128520</a>.
+                        </p>
+                        <p class="intro-text">
+                            Check out some of my projects <button id="projects-button"> here.</button>
+                        </p>
+                        <p class="intro-text">
+                            In my spare time, I like to play <a href="https://en.wikipedia.org/wiki/Tennis" class="emoji">&#x1F3BE</a> and cook delicious food.
+                        </p>
+                    </div>
+                        
+                    <figure id="figure">
+                        <div id="image-wrapper">
+                            <image id="image" src="Alex_Sitting.png"></image>
+                        </div>
+                        <figcaption>*Nonchalant picture</figcaption>
+                    </figure>
+                </div> 
+            </div>
+            
+
+            <div id="project-container">
+                <i id="arrow" class="fas fa-chevron-circle-left fa-3x"></i>
+
+                <div id="box-container">
+                    <div id="box">
+                        <div class="box-image-wrapper">
+                            <image class="box-image" src="./Images/path-finder-img.png"></image>
+                            <p class="description">Path Finding Visualizer</p>
+                        </div>
+                        <a href="https://github.com/alexwang177/path-finder"><i class="fab fa-github fa-2x top-icon"></i></a>
+                        <a href="https://alexwang177.github.io/path-finder/"><i class="fas fa-link fa-2x top-icon"></i></a>
+                    </div>
+                    <div id="box">
+                        <div class="box-image-wrapper">
+                            <image class="box-image" src="./Images/PoolParty.png"></image>
+                            <p class="description">Pool Party</p>
+                        </div>
+                        <a href="https://github.com/alexwang177/RDU-Pool"><i class="fab fa-github fa-2x top-icon"></i></a>
+                        <a href="https://obscure-inlet-22867.herokuapp.com/"><i class="fas fa-link fa-2x top-icon"></i></a>
+                    </div>
+                    <div id="box">
+                        <div class="box-image-wrapper">
+                                <image class="box-image" src="./Images/YangTrackPic.png"></image>
+                                <p class="description">Yang Track</p>
+                        </div>
+                        <a href="https://github.com/alexwang177/yang-track"><i class="fab fa-github fa-2x top-icon"></i></a>
+                        <a href="https://glacial-tor-55090.herokuapp.com/"><i class="fas fa-link fa-2x top-icon"></i></a>
+                    </div>
+                    <div id="box">
+                        <div class="box-image-wrapper">
+                                <image class="box-image" src="./Images/Steve_Pic.png"></image>
+                                <p class="description">Food Hack</p>
+                        </div>
+                        <a href="https://github.com/alexwang177/Food-Hack"><i class="fab fa-github fa-2x top-icon"></i></a>
+                        <a href="https://whispering-chamber-96806.herokuapp.com/"><i class="fas fa-link fa-2x top-icon"></i></a>
+                    </div>
+                    <div id="box">
+                        <div class="box-image-wrapper">
+                                <image class="box-image" src="./Images/Flashy_Pic.png"></image>
+                                <p class="description">Flashy</p>
+                        </div>
+                        <a href="https://github.com/alexwang177/Flashy"><i class="fab fa-github fa-2x top-icon"></i></a>
+                        <a href="https://alexwang177.github.io/Flashy/"><i class="fas fa-link fa-2x top-icon"></i></a>
+                    </div>
+                </div>
+            </div> 
+        </div>
+            
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+            particlesJS.load('particles-js', 'particles.json', function() {
+                console.log("particlesjs loaded")
+            })
+    </script>
+    <script src="https://kit.fontawesome.com/147bc52b14.js" crossorigin="anonymous"></script>
+    <script>
+        const projButton = document.getElementById('projects-button')
+        const main = document.getElementById('main')
+
+        const projContainer = document.getElementById('project-container')
+        const backButton = document.getElementById('arrow')
+
+        projButton.addEventListener('click', () => {
+            main.classList.add("show-projects")
+        })
+
+        backButton.addEventListener('click', () => {
+            main.classList.remove("show-projects")
+        })
+    </script>
+>>>>>>> 2020-Portfolio/master
 </body>
 </html>
