@@ -23,7 +23,7 @@ a, u {
     width: 100%;
     height: 100%;
 
-    display: flex;
+    
     justify-content: center;
 }
 
@@ -41,11 +41,9 @@ a, u {
 
     z-index: -1;*/
 
-    display: flex;
     position: relative;
     overflow: hidden;
     height: 100vh;
-
 }
 
 #main #front-page
@@ -76,8 +74,6 @@ a, u {
 
     width: 100%;
     height: 100%;
-    
-    background-color: #AAFFAA;
 
     transition: left .5s ease-out;
     -webkit-transition: left .5s ease-out;
@@ -216,4 +212,5 @@ a, u {
 #arrow:hover {
     transform: scale(1.3);
     color: rgb(51, 51, 165);
+    cursor: pointer;
 }
