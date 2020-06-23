@@ -282,6 +282,8 @@ a, u {
     top: 5%;
     left:0;
     right: 0;
+
+    text-align: center;
 }
 
 .box-image {
@@ -293,4 +295,28 @@ a, u {
 
     border-radius: 5%;
     opacity: 100%;
+}
+
+.description {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 15px;
+    font-size: 22px;
+
+    border-radius: 5%;
+    opacity: 100%;
+}
+
+@media screen and (max-width: 900px) {
+    .description {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .description {
+        font-size: 0px;
+    }
 }
