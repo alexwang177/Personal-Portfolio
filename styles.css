@@ -26,6 +26,12 @@ a, u {
     justify-content: center;
 }
 
+#particles-js canvas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
 .particles-js-canvas-el {
 }
 
