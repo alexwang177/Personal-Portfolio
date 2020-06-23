@@ -221,8 +221,13 @@ a, u {
 
 #text {
     background: red;
-    height: 200px;
-    width: 200px;
+    height: 20vw; 
+    width: 20vw;
+    margin: 5vw;
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 100px;
+    min-width: 100px;
 }
 
 #arrow {
