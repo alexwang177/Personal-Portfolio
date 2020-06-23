@@ -217,6 +217,7 @@ a, u {
     padding: 0;
 
     border-radius: 5%;
+    opacity: 100%;
 }
 
 #text {
@@ -230,12 +231,66 @@ a, u {
     min-width: 100px;
 }
 
+#box {
+    background: rgba(126, 126, 136, 0.5);
+    border-radius: 15px;
+    height: 20vw; 
+    width: 20vw;
+    margin: 5vw;
+    max-height: 200px;
+    max-width: 200px;
+    min-height: 100px;
+    min-width: 100px;
+
+    position: relative;
+}
+
+#box .fa-github{
+    color: blue;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.5;
+}
+
+#box .fa-link{
+    color: blue;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    opacity: 0.5;
+}
+
 #arrow {
     color: rgb(48, 43, 43);
 }
 
 #arrow:hover {
     transform: scale(1.3);
-    color: rgb(51, 51, 165);
+    color: rgb(103, 103, 187);
     cursor: pointer;
+}
+
+.box-image-wrapper {
+    border-radius: 15px;
+    height: 90%; 
+    width: 90%;
+
+    display: block;
+
+    margin: auto;
+    position: absolute;
+    top: 5%;
+    left:0;
+    right: 0;
+}
+
+.box-image {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: auto;
+    padding: 0;
+
+    border-radius: 5%;
+    opacity: 100%;
 }
