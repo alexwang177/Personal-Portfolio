@@ -220,9 +220,9 @@ a, u {
 }
 
 @media screen and (max-height: 500px) {
-    #iamge-wrapper {
+    #image-wrapper {
         height: auto;
-        width: 50px;
+        width: 60px;
     }
 }
 
