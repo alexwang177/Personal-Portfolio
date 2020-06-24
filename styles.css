@@ -254,8 +254,8 @@ a, u {
     margin: 5vw;
     max-height: 200px;
     max-width: 200px;
-    min-height: 50px;
-    min-width: 50px;
+    min-height: 80px;
+    min-width: 80px;
 
     position: relative;
 }
