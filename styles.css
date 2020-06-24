@@ -205,9 +205,12 @@ a, u {
     /*height: 500px;
     width: 300px;*/
 
-    height: auto;
+    /*height: auto;
     width: 20vw;
-    min-width: 100px;
+    min-width: 100px;*/
+
+    height: 50px;
+    width: 50px;
 }
 
 #image {
