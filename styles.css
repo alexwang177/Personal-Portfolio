@@ -222,7 +222,8 @@ a, u {
 @media screen and (max-height: 500px) {
     #image-wrapper {
         height: auto;
-        width: 60px;
+        width: 40px;
+        min-width: 10px;
     }
 }
 
