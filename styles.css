@@ -81,6 +81,7 @@ a, u {
     height: 100%;
 
     display: grid;
+    -webkit-display: grid;
     grid-template-rows: 20% 80%;
     justify-items: center;
     align-items: center;
@@ -197,6 +198,13 @@ a, u {
     transform: scale(1.1);
 }
 
+@media screen and (max-height: 400px) {
+    #projects-button {
+        margin: 20px;
+    }
+}
+
+
 #figure {
     
 }
@@ -206,7 +214,7 @@ a, u {
     width: 300px;*/
 
     height: auto;
-    width: 15vw;
+    width: 18vw;
     min-width: 80px;
 }
 
