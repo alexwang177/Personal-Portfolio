@@ -47,7 +47,7 @@ a, u {
     z-index: -1;*/
 
     position: relative;
-    overflow: auto;
+    overflow: hidden;
     height: 100vh;
 }
 
