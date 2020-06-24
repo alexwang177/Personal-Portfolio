@@ -249,13 +249,13 @@ a, u {
 #box {
     background: rgba(126, 126, 136, 0.5);
     border-radius: 15px;
-    height: 15vw; 
-    width: 15vw;
+    height: 20vh; 
+    width: 20vh;
     margin: 5vw;
     max-height: 200px;
     max-width: 200px;
-    min-height: 80px;
-    min-width: 80px;
+    min-height: 100px;
+    min-width: 100px;
 
     position: relative;
 }
