@@ -285,6 +285,14 @@ a, u {
     cursor: pointer;
 }
 
+@media screen and (max-height: 400px) {
+    #arrow {
+        margin: 20px;
+        padding: 50px;
+    }
+}
+
+
 .box-image-wrapper {
     border-radius: 15px;
     height: 90%; 
