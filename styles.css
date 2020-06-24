@@ -201,6 +201,7 @@ a, u {
 @media screen and (max-height: 400px) {
     #projects-button {
         margin: 20px;
+        padding: 50px;
     }
 }
 
