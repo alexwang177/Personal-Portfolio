@@ -79,7 +79,7 @@ u {
 
   display: grid;
   -webkit-display: grid;
-  grid-template-rows: 20% auto;
+  grid-template-rows: 15% auto;
   justify-items: center;
   align-items: center;
 
